@@ -1,6 +1,5 @@
 services:
-  web:
+  vite-app:
     image: registry.ref256.dev/vite-app:latest
-    # build: ..
     ports:
       - 8080:80
