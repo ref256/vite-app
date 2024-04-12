@@ -1,5 +1,5 @@
 services:
   vite-app:
-    image: registry.ref256.dev/vite-app:latest
+    image: registry.ref256.dev/vite-app:${REVISION}
     ports:
       - 8080:80
